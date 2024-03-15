@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Madimi+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1D4646;
+    color: white;
+    font-family: "Madimi One", ital;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+input, button {
+    border: 1px solid rgba(245, 245, 245, 0.534);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 14px;
+    padding: 8px 10px;
+    margin: 0;
+}
+
+input[type="text"] {
+    width: 300px;
+}
+
+.search-btn {
+    cursor: pointer;
+    border-left: 0;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.random-btn {
+    cursor: pointer;
+    margin-left: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+img {
+    border-radius: 10px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.anime {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    align-items: center0;
+    justify-content: center;
+    text-align: center;
+}
+.anime-item-img {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+@media(max-widh: 800px) {}
+@media(max-widh: 700px) {}
+@media(max-widh: 500px) {
+    input[type="text"] {
+        width: 100%;
+    }
+
+}

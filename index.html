@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/57ef9f8837.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://cdn.pixabay.com/photo/2022/12/01/04/42/man-7628305_640.jpg" alt="">
+        <h1>Anime Finder</h1>
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="Search for anime">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <button class="random-btn" id="random">
+                <i class="fas fa-random"></i>
+            </button>
+        </div>
+
+
+        <div id="result-heading"></div>
+        <div class="anime" id="anime"></div>
+        <div id="single-anime" class="single-anime"></div>
+        <button id="go-back" class="go-back">Go back</button>
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
